@@ -4,7 +4,6 @@
 
 .cont1 {
   display: flex;
-  width: 13%;
   position: relative;
   justify-content: end;
 }
@@ -271,7 +270,7 @@ h5 {
   height: 216px;
   margin-top: -200px;
   background-color: #E7ECFF;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .img5 {
@@ -284,6 +283,10 @@ h5 {
 
 .box72 {
   width: 200px;
+}
+
+.cont71 {
+  width: 13%;
 }
 
 @media screen and (max-width: 768px) {
@@ -318,6 +321,6 @@ h5 {
   }
   .box711 {
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 }/*# sourceMappingURL=main.css.map */

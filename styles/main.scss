@@ -9,7 +9,7 @@ $width: 100%;
 
 .cont1 {
   display: flex;
-  width: 13%;
+
   position: relative;
   justify-content: end;
 }
@@ -277,7 +277,7 @@ color: #6F7CB2;
   height: 216px;
   margin-top: -200px;
   background-color: #E7ECFF;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .img5 {
@@ -289,6 +289,9 @@ color: #6F7CB2;
 }
 .box72 {
   width: 200px;
+}
+.cont71 {
+    width: 13%;
 }
 
 @media screen and (max-width: 768px) {
@@ -324,6 +327,6 @@ color: #6F7CB2;
 }
 .box711 {
 flex-direction: column;
-justify-content: space-around;
+justify-content: space-evenly;
 }
 }
