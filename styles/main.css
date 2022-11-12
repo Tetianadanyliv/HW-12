@@ -297,7 +297,7 @@ h5 {
 }
 
 .cont71 {
-  width: 50%;
+  width: 13%;
 }
 
 @media screen and (max-width: 768px) {
@@ -344,6 +344,7 @@ h5 {
     margin-top: -80px;
   }
   .cont71 {
+    width: 50%;
     margin-top: -20px;
     margin-bottom: 10px;
   }
